@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>VTT Demo</title>
+</head>
+<body>
+
+
+    <h1>VTT Demo!</h1>
+    <div id="campaign_id_div">
+        <label>Campaign ID:</label>
+        <input id="campaign_id_input" type="text" />
+        <button id="btnCampaignId">Enter Campaign</button>
+    </div>
+    <div id="players_video" style="display:none">
+        <video id="localVideo" autoplay></video>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="client.js"></script>
+</body>
